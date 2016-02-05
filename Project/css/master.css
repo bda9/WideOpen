@@ -1,0 +1,176 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato";
+}
+a:-webkit-any-link {
+  color: white;
+  text-decoration: none;
+  cursor: auto;
+}
+.logobox {
+  display: flex;
+  justify-content: left;
+  height: 75px;
+  width: 100%;
+  padding: 14px;
+}
+.logo {
+  left: 0;
+  top: 20px;
+  padding-top: 22px;
+  width: 180px;
+}
+nav {
+  float: right;
+  margin-top: 25px;
+  display: block;
+}
+.navtop {
+  display: block;
+  height: auto;
+  padding-bottom: 0;
+  overflow: visible;
+  padding-left: 15px;
+  padding-right: 15px;
+  max-height: 340px;
+}
+.navtop a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 20px 0 0;
+  letter-spacing: 1px;
+}
+.navtop a:hover {
+  color: #BDD537;
+}
+#greenbox {
+  background-color: #BDD537;
+  padding: 10px 36px;
+  border-radius: 5px;
+}
+h1 {
+  color: white;
+  display: block;
+}
+.shop {
+  margin-top: 75px;
+}
+#workshop {
+  font-size: 152px;
+  letter-spacing: 1px;
+  line-height: 140px;
+  display: block;
+  margin: 0 0 20px 0;
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+#small {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: left;
+  padding-left: 42%;
+}
+.sub {
+  font-size: 18px;
+  display: block;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: relative;
+  font-weight: 300;
+}
+#greeen {
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 0 auto;
+}
+.main {
+  background: url("img/hometopbg.jpg") center bottom;
+  height: 490px;
+  width: 100%;
+  top: 0;
+  background-size: cover;
+}
+.c1 {
+  width: 50%;
+  align-items: center;
+}
+#redgiant {
+  width: 245px;
+  height: 125px;
+  margin: 0 15px 0 15px;
+  background: url("sprite_client_logos.jpg") 5px -10px;
+  transition: all ease-in-out 500ms;
+}
+#taylor {
+  width: 245px;
+  height: 125px;
+  margin: 0 15px 0 15px;
+  background: url("sprite_client_logos.jpg") -305px -10px;
+  transition: all ease-in-out 500ms;
+}
+#smart {
+  width: 245px;
+  height: 125px;
+  margin: 0 15px 0 15px;
+  background: url("sprite_client_logos.jpg") -630px -4px;
+  transition: all ease-in-out 500ms;
+}
+#tool {
+  width: 245px;
+  height: 125px;
+  margin: 0 15px 0 15px;
+  background: url("sprite_client_logos.jpg") 0 -153px;
+  transition: all ease-in-out 500ms;
+}
+#heel {
+  width: 245px;
+  height: 125px;
+  margin: 0 15px 0 15px;
+  background: url("sprite_client_logos.jpg") -300px -150px;
+  transition: all ease-in-out 500ms;
+}
+#digi {
+  width: 245px;
+  height: 125px;
+  margin: 0 15px 0 15px;
+  background: url("sprite_client_logos.jpg") -630px -150px;
+  transition: all ease-in-out 500ms;
+}
+#diet {
+  width: 245px;
+  height: 125px;
+  margin: 0 15px 0 15px;
+  background: url("sprite_client_logos.jpg") 0 -300px;
+  transition: all ease-in-out 500ms;
+}
+#sirona {
+  width: 245px;
+  height: 125px;
+  margin: 0 15px 0 15px;
+  background: url("sprite_client_logos.jpg") -306px -300px;
+  transition: all ease-in-out 500ms;
+}
+#just {
+  width: 245px;
+  height: 125px;
+  margin: 0 15px 30px 15px;
+  background: url("sprite_client_logos.jpg") -630px -290px;
+  transition: all ease-in-out 500ms;
+}
+#how-sprite {
+  width: 75px;
+  height: 75px;
+  margin: 30px 0 20px 0;
+  background: url("sprite_home.png") -22px -113px;
+}
